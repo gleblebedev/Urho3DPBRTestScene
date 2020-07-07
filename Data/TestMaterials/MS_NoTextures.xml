@@ -1,0 +1,10 @@
+<material>
+	<technique name="Techniques/PBR/PBRNoTexture.xml" />
+	<parameter name="MatDiffColor" value="0.07323895 0.03310476 0.4479884 1" />
+	<parameter name="MatEnvMapColor" value="1 1 1 1" />
+	<parameter name="MatSpecColor" value="1 1 1 0" />
+	<parameter name="Roughness" value="0.4" />
+	<parameter name="Metallic" value="0.3185468" />
+	<parameter name="UOffset" value="1 0 0 0" />
+	<parameter name="VOffset" value="0 1 0 0" />
+</material>

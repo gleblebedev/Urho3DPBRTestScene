@@ -1,0 +1,8 @@
+
+<material>
+	<technique name="Techniques/DiffSkyboxHDRScale.xml" />
+	<texture unit="diffuse" name="Scenes/SampleScene/ReflectionProbe-0.xml" />
+	<cull value="none" />
+	<shadowcull value="ccw" />
+	<shader vsdefines="IGNORENODETRANSFORM" />
+</material>
