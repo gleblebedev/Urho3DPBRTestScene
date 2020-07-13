@@ -1,9 +1,10 @@
 <material>
 	<technique name="Techniques/PBR/PBRVegetationDiff.xml" />
 	<parameter name="WindHeightFactor" value="0.1" />
-	<parameter name="WindHeightPivot" value="0.01" />
+	<parameter name="WindHeightPivot" value="0.0" />
 	<parameter name="WindPeriod" value="0.5" />
 	<parameter name="WindWorldSpacing" value="0.5 0.5" />
+	<parameter name="WindStemAxis" value="0 0 -0.01" />
 	<texture unit="diffuse" name="Grass/textures/AM124_141_large_v3_04_baseColor_0.png" />
 	<parameter name="MatEmissiveColor" value="0 0 0 1" />
 	<parameter name="MatDiffColor" value="1 1 1 1" />
@@ -13,5 +14,5 @@
 	<parameter name="Metallic" value="0" />
 	<parameter name="UOffset" value="1 0 0 0" />
 	<parameter name="VOffset" value="0 1 0 0" />
-	<shader psdefines="ALPHAMASK" />
+	<shader psdefines="ALPHAMASK" vsdefines="WINDSTEMAXIS" />
 </material>
